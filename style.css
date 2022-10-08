@@ -1,0 +1,205 @@
+body{
+    background: #f7f7f7;
+    font-family:'Verdana', 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+header{
+    background: rgba(255, 255, 255, 0.301);
+    font-style: italic;
+    letter-spacing: 3px;
+    color: black;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 59px;
+}
+
+header p{
+    padding-left: 40px;
+    text-align: end;
+}
+
+header .contact{
+    border: 2px solid white(5, 5, 5);
+    line-height: 15px;
+    max-width: 300px;
+    margin: 0;
+    padding: 20px;
+    line-height: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.avatar{
+  max-width: 100px;
+  margin: 0;
+  border-radius: 25%;
+  box-shadow: 4px 4px 14px 4px rgba(0, 0, 0, 25);
+}
+
+.my_information{
+    border: 1px solid darkblue;
+    background: rgb(211, 246, 248);
+    letter-spacing: 2px;
+    margin: 5px 0;
+    max-width: auto;
+    border-radius: 10px;
+    border-left: 5px solid blue;
+    padding: 0px;
+}
+
+.my_information :hover{
+    opacity: 0.9;
+}
+
+#data{
+    border: 1px solid darkblue;
+    background: rgb(197, 243, 245);
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-left: 5px solid blue;
+    width: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+
+/*.feedback{
+    max-width: 400px;
+    margin-left: 500px;
+}*/
+
+.feedback h3{
+    text-align: center;
+}
+    
+.form label{
+    display: block;
+    font-size: 14px;
+    background: #f7f7f7;
+}
+
+.form input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: white;
+    color: black;
+    padding: 15px 0px 10px;
+    font-family: inherit;
+    outline: none;
+}
+
+.form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0px 10px;
+    font-family: inherit;
+    outline: none;
+}
+
+.form-button input{
+    border: 1px solid transparent;
+    box-shadow: 4px 4px 14px 4px rgba(0, 0, 0, 25);
+    background-color: rgb(212, 46, 46);
+    color: black;
+    font-size: 14px;
+    display: block;
+    margin: auto;
+    padding: 0 30px;
+    border-radius: 25px;
+}
+
+.form-button :hover{
+    cursor: pointer;
+    opacity: 0.8;
+    border: 1px solid black;
+}
+
+.form-row{
+    display: flex;
+}
+
+.form-row .form{
+    padding: 0px 10px;
+    width: 50%;
+}
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: red;
+}
+
+.button{
+    background-color: gray;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+.navbar{
+    background: rgb(119, 171, 240);
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.navbar ul li{
+    padding: 0px 10px;
+    margin-right: 10px;
+}
+.navbar ul li:hover {
+text-decoration: underline;
+font-weight: bold;
+    cursor: pointer;
+}
+
+.table thead{
+    background: rgb(223, 223, 223);
+}
+
+.table tbody{
+    background: whitesmoke;
+    text-align: center;
+}
+
+.table tbody :hover{
+    background: wheat;
+}
+
+@media (max-width:600px) {
+    .header{
+        display: block;
+        text-align: center;
+    }
+}
